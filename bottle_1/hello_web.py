@@ -7,7 +7,7 @@ def get_hello(my_name="unknown person"):
 
 @route('/')
 def get_goodbye():
-    return "<html>Goodbye there!!!</html>"
+    return "<html>Goodbye !!!</html>"
 
 run(host='localhost', port=8080)
 
